@@ -4,7 +4,7 @@ date = "2022-10-04"
 
 [taxonomies]
 grant_type = [ "Bounty" ]
-grant_category = [ "App Dev" ]
+grant_category = [ "Dev: Apps" ]
 
 [extra]
 image = ""
@@ -14,6 +14,7 @@ assignee = ["~nismut-tamwep"]
 champion = ["~dinleb-rambep"]
 grant_id = "B0189"
 completed = false
+canceled = true
 link = ""
 deliverable = "~doller-doller-dozzod-dalten/books"
 work_request_link = "https://airtable.com/shr4qt9t9kz7RaOIa?prefill_Grant+ID=B0189&prefill_Grant+Name=Books%20Feature%20Development"
@@ -42,3 +43,5 @@ The source code for Books lives at https://github.com/dalten-collective/books.
 
 ## Milestones and Compensation
 The applicant will receive 2 stars on completion of all the features in scope.
+
+ETA: Saturday, July 20, 2024

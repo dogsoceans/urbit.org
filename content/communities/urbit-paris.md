@@ -1,7 +1,16 @@
 +++
 title = "Urbit Paris"
 description = ""
-image = "https://storage.googleapis.com/media.urbit.org/site/ecosystem/communities/urbitparis.png"
+image = "https://media.urbit.org/site/communities/paris.png"
+group = "~solsup-soplyd/urbit-paris"
+
+[[links]]
+label = "Twitter"
+url = "https://twitter.com/urbitparis"
+
+[[links]]
+label = "Meetup"
+url = "https://www.meetup.com/urbit-paris/"
 +++
 
 Join us for our monthly Urbit meetups in Paris!
@@ -14,10 +23,4 @@ We'll introduce Urbit, help you boot your own ship, and make sure you go back ho
 
 See you there!
 
-––
 
-~solsup-soplyd/urbit-paris
-
-[Twitter](https://twitter.com/urbitparis)
-
-[Meetup](https://www.meetup.com/urbit-paris/)

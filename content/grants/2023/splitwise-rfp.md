@@ -4,18 +4,18 @@ title = "Expense Sharing App for Urbit"
 date = "2023-04-03"
 
 [taxonomies]
-grant_type = ["RFP"]
-grant_category = ["App Dev"]
+grant_type = ["Bounty"]
+grant_category = ["Dev: Apps"]
 
 [extra]
 image = ""
 description = "Create a crypto and fiat expense sharing app for Urbit "
-reward = "1 Star"
+reward = "2 Stars"
 assignee = ["~talfus-laddus"]
-champion = [""]
+champion = ["~rivmud-fabwen"]
 grant_id = "P0279"
-completed = true
-canceled = false
+completed = false
+canceled = true
 
 +++
 

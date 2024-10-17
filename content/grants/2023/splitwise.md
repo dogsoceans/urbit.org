@@ -5,22 +5,22 @@ date = "2023-06-22"
 
 [taxonomies]
 grant_type = ["Proposal"]
-grant_category = ["App Dev"]
+grant_category = ["Dev: Apps"]
 
 [extra]
 image = ""
 description = ""
-reward = "1 Star"
+reward = "2 Stars"
 assignee = ["~talfus-laddus"]
-champion = [""]
+champion = ["~rivmud-fabwen"]
 grant_id = "P0279"
-completed = false
+completed = true
 canceled = false
 
 +++
 
 # Motivation
-The Urbit community hosts many IRL events and, inevitably, this means splitting tabs with other Urbiters. Urbit needs its own expense sharing app that seamlessly keeps track of all expenses and IOUs in one place and works with both crypto and fiat [RFP](https://urbit.org/grants/splitwise-rfp).
+The Urbit community hosts many IRL events and, inevitably, this means splitting tabs with other Urbiters. Urbit needs its own expense sharing app that seamlessly keeps track of all expenses and IOUs in one place and works with both crypto and fiat.
 
 Urbit is for small communities. And those need a way to keep track of and to split shared expenses.
 
@@ -86,23 +86,37 @@ Deliverables: Edmonds-Karp Library
 The Proof of Concept (POC) demonstrates how to model shared expenses as a flow network and how to derive from it the minimum number of transactions needed to settle debts. The POC implements the Edmonds-Karp algorithm as well as the logic of how to construct the flow network from a list of expenses and how to derive a list of transactions from the residual network.
 
 ## Milestone 2 - Minimal Viable Product
-Completion: End of App School Live before Assembly (October 2023)
+Completion: February 2024
 
 Payment: 1 Star
 
-Deliverables : Gall Agent: Website
+Deliverables : App available through Software Distribution
 
-The Minimal Viable Product (MVP) consists of a gall agent as backend and a website as frontend.
+The Minimal Viable Product (MVP) consisting of three gall agents: One as back-end, one as web API and one which serves the front-end.
 
-Iterations
-1. Create a gall agent containing a basic set of operations to manage groups and to add, store, delete and retrieve group expenses.
-2. Create a simple, stupid and mobile-first website as an interface to the gall agent.
-3. Add a feature to “simplify debts” by integrating the Edmonds-Karp library into the gall agent. The agent can suggest a way to balance out shared expenses with a minimal number of transactions.
-4. Synchronize expenses among the group members.
-5. Handle different currencies. Retrieve the current exchange rate and do conversions between currencies.
-6. Make the app available through Software Distribution.
+Iterations:
+1. Create gall agents containing a basic set of operations to manage groups and to add, store, delete and retrieve group expenses. One of the agents exposes a web API.
+2. Create a simple, stupid and mobile-first website as an interface to the API served by a gall agent.
+3. Synchronize expenses among the group members.
+4. Make the app available through Software Distribution.
 
-#  Limitations
+Limitations:
+- No simplified debts feature.
+- Only EUR and USD support. No conversions between currencies.
+
+## Milestone 3 - Simplify Debts and Multiple Currency
+Completion: April 2024
+
+Payment: 1 Star
+
+Deliverables : New Features
+
+Iterations:
+1. Add a feature to “simplify debts” by integrating the Edmonds-Karp library from milestone 1 into the desk. The app can suggest a way to balance out shared expenses with a minimal number of transactions.
+2. Handle different currencies. Retrieve the current exchange rate and do conversions between currencies.
+3. Polish interface
+
+# General Limitations
 Since the list of expenses is stored on the group initiator's ship, when it is down other people can not synchronize their state of the application.
 
 # Additional Future Work
@@ -127,3 +141,5 @@ In order to find out more about my previous works:
  - [Sourcehut](https://git.sr.ht/~talfus-laddus)
  - [GitHub](https://github.com/matthiasschaub)
 
+# Current State
+https://github.com/matthiasschaub/tahuti

@@ -4,17 +4,17 @@ title = "Implement a wiki on Urbit"
 date = "2023-05-11"
 
 [taxonomies]
-grant_type = ["RFP"]
-grant_category = ["App Dev"]
+grant_type = ["Bounty"]
+grant_category = ["Dev: Apps"]
 
 [extra]
 image = ""
 description = "Design and implement a wiki-like service on Urbit"
-reward = "TBD"
-assignee = [""]
+reward = "5 Stars"
+assignee = ["~rivmud-fabwen"]
 champion = [""]
-grant_id = "P1001"
-completed = false
+grant_id = "P0296"
+completed = true
 canceled = false
 
 +++

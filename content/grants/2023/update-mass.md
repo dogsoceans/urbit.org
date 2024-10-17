@@ -4,17 +4,17 @@ title = "Modernize |mass"
 date = "2023-03-02"
 
 [taxonomies]
-grant_type = ["RFP"]
-grant_category = ["Core Dev"]
+grant_type = ["Bounty"]
+grant_category = ["Dev: Core"]
 
 [extra]
 image = ""
 description = "Update the |mass utility to reinject the output into arvo from the runtime."
-reward = "TBD"
-assignee = [""]
+reward = "6 Stars"
+assignee = ["~rivmud-fabwen"]
 champion = [""]
-grant_id = "P1001"
-completed = false
+grant_id = "P0294"
+completed = true
 canceled = false
 
 +++

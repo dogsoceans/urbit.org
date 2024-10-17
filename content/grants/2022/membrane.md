@@ -3,7 +3,7 @@ title = "Membrane"
 date = "2022-06-02"
 [taxonomies] 
 grant_type = ["Proposal"]
-grant_category = ["App Dev"]
+grant_category = ["Dev: Apps"]
 [extra] 
 image = ""
 description = "Martian native spreadsheets"
@@ -12,7 +12,7 @@ assignee = ["~tiller-tolbus"]
 champion = ["~sarlev-sarsen"]
 grant_id = "P0138"
 completed = false
-canceled = false
+canceled = true
 link = "~tiller-tolbus/membrane"
 deliverable = "~tiller-tolbus/membrane"
 +++

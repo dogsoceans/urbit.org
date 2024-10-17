@@ -1,11 +1,12 @@
 +++
 title = "Urbit NY"
 description = ""
-image = "https://storage.googleapis.com/media.urbit.org/site/ecosystem/communities/urbit-ny.png"
+image = "https://media.urbit.org/site/communities/ny.png"
+
+[[links]]
+label = "Meetup page"
+url = "https://www.meetup.com/Urbit-New-York/"
 +++
 
 We love experimenting with Urbit & tinkering with Arvo, Hoon, & Nock
 
-––
-
-[Meetup page](https://www.meetup.com/Urbit-New-York/)

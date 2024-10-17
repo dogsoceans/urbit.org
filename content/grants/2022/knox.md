@@ -5,7 +5,7 @@ date = "2022-11-01"
 
 [taxonomies]
 grant_type = ["Proposal"]
-grant_category = ["App Dev"]
+grant_category = ["Dev: Apps"]
 
 [extra]
 image = ""
@@ -14,7 +14,7 @@ reward = "4 stars"
 assignee = ["~wordel-sitnec", "~radbus-tactyl"]
 champion = ["~haddef-sigwen"]
 grant_id = "P0185"
-completed = false
+completed = true
 canceled = false
 link = "~wordel-sitnec/knox"
 

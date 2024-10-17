@@ -4,18 +4,18 @@ title = "Generic Text Search Tool for Urbit"
 date = "2023-03-02"
 
 [taxonomies]
-grant_type = ["RFP"]
-grant_category = ["Core Dev"]
+grant_type = ["Bounty"]
+grant_category = ["Dev: Tool"]
 
 [extra]
 image = ""
 description = "Build Urbit's answer to grep."
-reward = "TBD"
+reward = "6 Stars"
 assignee = [""]
 champion = [""]
-grant_id = "P1002"
+grant_id = "P0292"
 completed = false
-canceled = false
+canceled = true
 
 +++
 

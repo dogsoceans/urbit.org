@@ -5,7 +5,7 @@ date = "2023-04-11"
 
 [taxonomies]
 grant_type = ["Proposal"]
-grant_category = ["Core Dev"]
+grant_category = ["Dev: Core"]
 
 [extra]
 image = ""
@@ -14,7 +14,7 @@ reward = "7 Stars"
 assignee = ["Runtime Verification, Inc."]
 champion = ["~rovnys-ricfer"]
 grant_id = "P0255"
-completed = false
+completed = true
 canceled = false
 
 +++

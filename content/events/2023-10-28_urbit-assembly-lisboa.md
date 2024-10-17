@@ -4,21 +4,29 @@ starts = "2023-10-28T10:00:00"
 ends = "2023-10-29T20:00:00"
 timezone = "Europe/Lisbon"
 location = "Lisbon – Portugal"
-image = "https://storage.googleapis.com/media.urbit.org/site/events/urb01_assembly23_std_1-1.png"
-registration_url = ""
+image = "https://storage.googleapis.com/media.urbit.org/assembly/assembly-tiles.gif"
 description = "The third Urbit Assembly & first one outside of the US"
-dark = true
+dark = false
 darken_image = "true"
 
+[[links]]
+label = "Buy your tickets"
+url = "https://assembly.urbit.org"
+
+[[links]]
+label = "Find out more"
+url = "https://assembly.urbit.org"
 +++
-![Screenshot](https://storage.googleapis.com/media.urbit.org/site/events/urb01_assembly23_std_16-9.png)
 
-Urbit is coming to Europe! Save the date for Urbit Assembly 2023 & Urbit Week in Lisbon this year. 
+![Screenshot](https://storage.googleapis.com/media.urbit.org/assembly/assembly-thumbnail.png)
 
-Early-bird tickets are going live by the end of may in the [UF Public Group](/groups/~halbex-palheb/uf-public). 
+This year’s Assembly takes place in Lisbon: Europe’s tech and crypto hub.
+Assembly is the largest annual Urbit conference, bringing together Urbit organizations, developers & enthusiasts from around the world.
 
-We’re changing up the format this year: the first two days will be more “conference-like” with launches, presentations and panels from the Urbit ecosystem.
+Buy your tickets now at [assembly.urbit.org](https://assembly.urbit.org)
 
-Afterwards we’ll have a week of side events hosted by the community throughout Lisbon.
+This year we’re doing something new. Immediately following Assembly there will be a week of side events organized by you: Urbit Week Lisboa.
 
-Don't miss it.
+We value IRL contact, therefore no talks will be live-streamed. Some recordings will be available after the event.
+
+Find out more at [assembly.urbit.org](https://assembly.urbit.org)
